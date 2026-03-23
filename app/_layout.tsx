@@ -14,7 +14,7 @@ import 'react-native-reanimated';
 import { tokenCache } from '@/cache';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-const CLERK_PUBLISHABLE_KEY = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEYs;
+const CLERK_PUBLISHABLE_KEY = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
 const queryClient = new QueryClient();
 
